@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'china'
             keyPassword '585381'
-            storeFile file('C:/Key.store/keystore.jks')
+            storeFile file('D:/Key.store/keystore.jks')
             storePassword '585381'
         }
     }
@@ -16,7 +16,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
-        versionName "2.0"
+        versionName "4.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     android.applicationVariants.all { variant ->
