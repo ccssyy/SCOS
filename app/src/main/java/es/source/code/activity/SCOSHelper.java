@@ -48,9 +48,8 @@ public class SCOSHelper extends AppCompatActivity {
     //邮件相关信息
     private static final String HOST = "smtp.qq.com";
     private static final String PORT = "465";
-    private static final String FROM_ADD = "765199602@qq.com";
-    private static final String FROM_PSW = "qrxfezcuncwqbdeb";
-    //private static final String FROM_PSW = "csy19940311";
+    private static final String FROM_ADD = "(qq邮箱地址)";
+    private static final String FROM_PSW = "邮箱密码或授权码";
 
     public volatile boolean exit = false;
 
